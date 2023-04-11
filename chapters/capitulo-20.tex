@@ -1,9 +1,8 @@
-\chapter{Un dígito hecho de Sol -- I}
+\chapter{A digit made by the Sun --- I}
 \label{sec:digito-solar-i}
 
-\lettrine[ante=\raisebox{-1.5ex}{\large ---},lines=2]{C}{ada uno de}
-los dígitos que indicarán la hora estarán formados por rayos de Sol
----arrancó Antonia, ofreciendo a Cecilia la figura \ref{fig:digitos}.
+\lettrine[ante=\raisebox{-1.5ex}{\large ---},lines=2]{E}{ach of the} digits that will indicate the time will be for sun rays ---Antonia started, offering to Cecilia figure~\ref{fig:digitos}.
+
 
 \begin{figure}[ht]
   \centering
@@ -23,162 +22,103 @@ los dígitos que indicarán la hora estarán formados por rayos de Sol
   \includegraphics[height=.25\textwidth]{imagenes/ocho}
   \includegraphics[height=.25\textwidth]{imagenes/nueve}
 }  
-  \caption{Dígitos hechos de rayos de Sol.}
+  \caption{Digits made of sunbeams.}
   \label{fig:digitos}
 \end{figure}
 
----¡Qué buenos diseños! ¿Los hiciste vos? ---preguntó Cecilia.
+---What good designs! Did you make them? Cecilia asked.
 
+   ``No,'' Antonia agreed without difficulty. I unscrupulously copied the visual arrangement from the model that inspired me in general \url{https://www.thingiverse.com/thing:1068443}.
 
----No ---reconoció Antonia sin dificultad---. La disposición visual la
-copié inescrupulosamente del modelo que me inspiró en general:
-\url{https://www.thingiverse.com/thing:1068443}.
+---Ah!\
+You're a catch... ---Cecilia smiled mischievously.
 
----¡Ah! Sos pilla... ---Cecilia sonrió con malicia.
+---It was only the visual aspect ---Antonia took refuge in a defensive attitude. The logic and the text I reconstructed myself.
 
----Fue sólo el aspecto visual ---Antonia se refugió en una
-actitud defensiva---. La lógica y el texto los reconstruí
-  yo sola.
+   Cecilia looked at her friend carefully for a few moments; I didn't know whether to ask him a question. Finally he released her: ---Antonia... Why did you redo a model that was already solved? by other person? Wasn't it enough to download and print it?
 
-Cecilia miró unos instantes a su amiga detenidamente; no sabía si
-hacerle una pregunta. Finalmente la soltó:
+Antonia returned Cecilia's gaze: ---Why are you doing this course? he replied. Why did you get to page~\thepage{} of this little manual?
 
----Antonia... ¿Por qué rehiciste un modelo que ya fue resuelto por
-otra persona? ¿No te bastaba bajarlo e imprimirlo?
+   The two friends looked at each other in silence. Cecilia understood that few things were compared to solving, by oneself, a difficult problem and with a beautiful-looking end result. And the digital Sundial combined both qualities perfectly.
 
-Antonia devolvió a Cecilia la mirada:
+``As you may have noticed,'' Antonia resumed, ``all the digits are based on the same pattern of six rows and four columns of pixels. The difference between the digits lies in which pixels are 'on' or 'off'; although it would be better to say 'open' or 'closed', since each represents a hole in the semi-cylinder of the clock.
 
----¿Por qué estás haciendo este curso? ---replicó---. ¿Por qué
-llegaste a la página \thepage{} de este manualcito?
+``The '1' seems to have only three columns,'' Cecilia observed.
 
-Las dos amigas se miraron en silencio. Cecilia comprendió que pocas
-cosas se comparaban con resolver, por una misma, un problema difícil y
-con un resultado final de aspecto hermoso. Y el reloj de Sol digital
-combinaba ambas cualidades a la perfección.
-
----Como habrás notado ---retomó Antonia---, todos los dígitos se basan
-en un mismo patrón de seis filas y cuatro columnas de pixeles. La
-diferencia entre los dígitos reside en los pixeles que están
-`encendidos' o `apagados'; aunque sería mejor decir `abiertos' o
-`cerrados', dado que cada uno representa un agujero en el semicilindro
-del reloj.
-
----El `1' parece contar con tres columnas, solamente ---ob\-ser\-vó
-Cecilia.
-
----La cuarta columna está, sólo que formada por pixeles `cerrados'
----aclaró Antonia. A Cecilia le pareció un poco artificial. <<¿Y por
-qué no pensar, entonces, que está formado por 17 filas y 48 columnas,
-la mayoría de ellas `cerradas'?>> ---pensó, pero la dejó continuar.
+   ``The fourth column is here, only it's made up of 'closed two' pixels,'' Antonia clarified. Cecilia thought it was a bit artificial. ``And why not think, then, that it is made up of 17
+rows and 48 columns, most of them 'closed'?'' he thought, but let her continue.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=.35\textwidth]{imagenes/matriz}
-  \caption{Matriz de pixeles que formarán cada dígito.}
+  \includegraphics[width=.35\textwidth]{imagenes/matriz.png}
+  \caption{Matrix of pixels that will form each digit.}
   \label{fig:matriz}
 \end{figure}
-
----Para aclarar ideas, vamos a ver todos los rayos `encendidos'
----dijo Antonia señalando la figura \ref{fig:matriz}, mientras
-prosiguía con el lento tono que presagiaba una de sus largas
-explicaciones---. Cada dígito, entonces, se formará dejando abiertos o
-cerrados los pixeles adecuados. Pero antes de ver cómo elegir cada
-uno, creo que es mejor que resolvamos el problema de ubicar cada rayo
-en una disposición ordenada y prolija de filas y columnas.
-
-Cecilia puso cara de inteligente:
-
----¿Usamos la transformación \lstinline!translate!?
-
----Sí, más vale; pero la pregunta es \emph{¿cómo?} ---Antonia pareció
-no haber captado la ironía---. A mí me sirve empezar haciendo
-dibujitos encima ---agregó, realizando la figura
-\ref{fig:matriz-anotada-2}.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=.55\textwidth]{imagenes/matriz-anotada-2}
-  \caption{Antonia anota la matriz con el fin de ubicar cada pixel.}
+  \caption{Antonia writes down the matrix in order to locate each pixel.}
   \label{fig:matriz-anotada-2}
 \end{figure}
   
 
+---To clarify ideas, we are going to see all the rays 'on'---said Antonia, pointing to the figure~\ref{fig:matriz}, while she continued with the slow tone that foreshadowed one of her long explanations
+---. Each digit, then, will be formed by leaving the appropriate pixels open or closed. But before we see how to choose each one, I think we better solve the problem of placing each ray in a neat and orderly arrangement of rows and columns.
 
-\guillemotright Para poder distribuir correctamente los pixeles,
-debemos ponernos de acuerdo no sólo en el tamaño de cada pixel
-(expresado en nuestros conocidos \texttt{ancho\_pixel} y
-\texttt{alto\_pixel}) sino también en la separación entre pixeles: se
-me ocurrió llamarlos \texttt{delta\_ancho} y
-\texttt{delta\_alto}... básicamente porque sí.
+Cecilia made an intelligent face: 
 
-Cecilia no tuvo nada que objetar.
+---Shall we use the transformation \lstinline!translate!? 
 
----Ahora tenemos que poder distinguir a cada pixel de los
-demás. Ponerles un `nombre', digamos. Se me ocurrió que hacerlo en
-referencia a la fila y columna que ocupan en el arreglo no puede ser
-la peor forma ---dijo Antonia.
+---Yes, it's  better; but the question is how? Antonia seemed not to have caught the irony. It helps me to start making drawings on top ---he added, making the figure~\ref{fig:matriz-anotada-2}.
+
+\guillemotright In order to correctly distribute the pixels, we must agree not only on the size of each pixel (expressed in our acquaintances \texttt{ancho\_pixel} and \texttt{alto\_pixel}) but also on the separation between pixels: it occurred to me to call them  \texttt{delta\_ancho} and \texttt{delta\_alto}.
+
+Cecilia had no objection.
+
+---Now we have to be able to distinguish each pixel from the others. Give them a 'name', let's say. It occurred to me to do it in reference to the row and column they occupy in the array, it can't be the worst
+way ---said Antonia.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=.45\textwidth]{imagenes/matriz-anotada-coordenadas}
-  \caption{Antonia nombra cada pixel con las coordenadas enteras de su
-    matriz.}
+  \caption{Antonia names each pixel with the integer coordinates of its matrix.}
   \label{fig:matriz-anotada-coordenadas}
 \end{figure}
   
-
-
-\guillemotright Así, el primer pixel será el de la fila 0 y columna 0,
-etc. Como comentamos en el capítulo \ref{sec:vectores}, es usual
-referirse a las posiciones dentro de un arreglo rectangular empezando
-por 0 ---recordó Antonia, y prosiguió---: Ahora, lo más difícil:
-ubicar la posición en \coord{X} e \coord{Y} de cada pixel conociendo
-su fila y columna, tomando en cuenta los valores de
-\texttt{ancho\_pixel}, \texttt{alto\_pixel}, \texttt{delta\_ancho} y
+\guillemotright{}Thus, the first pixel will be the one in row 0 and column 0, etc. As we commented in the chapter~\ref{sec:vectores}, it is usual to refer to the positions within a rectangular array starting with 0 ---remembered Antonia, and continued?: Now, the most difficult thing: locate the position in \coord{X} and \coord{Y} of each pixel knowing its row and column, taking
+into account the values of \texttt{ancho\_pixel}, \texttt{alto\_pixel}, \texttt{delta\_ancho} and
 \texttt{delta\_alto}.
 
-%Antonia escribió un poco más antes de seguir con su monólogo:
+\guillemotright{}To go step by step, it seems better to locate the center of the
+pixel as the origin of the coordinates \texttt{[0,0]}. Yes, I know ---he went ahead
+---; we want the center of the arrangement to be the one at the origin of coordinates; but I think it's easier to start thinking about it that way.
 
-\guillemotright Para ir paso a paso, me parece mejor ubicar como
-origen de coordenadas el centro del pixel \texttt{[0,0]}. Sí, ya sé
----se adelantó---; nosotras queremos que sea el centro del arreglo el
-que esté en el origen de coordenadas; pero creo que es más fácil
-comenzar a pensarlo así.
+Cecilia didn't feel like contradicting Antonia, basically because she still didn't know exactly where she was going on that road that already seemed too long to her.
 
-Cecilia no se sentía con muchas ganas de contradecir a Antonia,
-básicamente porque aún no sabía exactamente adónde se dirigía en ese
-camino que ya le parecía demasiado largo.
-
----Muy bien, Cecilia; ya hablé mucho ---Antonia miró a su amiga con
-los ojos apenas entornados y con un brillo que, una vez más, parecía
-una súplica---. Ahora tendríamos que ser capaces de calcular el valor
-de \coord{X} e \coord{Y} para cualquier pixel: digamos, por ejemplo,
-el \texttt{[3,2]}.
-
-
+---Very well, Cacilia; I've already talked a lot--- Antonia looked at her friend with her eyes barely closed and with a shine that, once again, seemed like a plea. Now we should be able to calculate the value of de \coord{X} and \coord{Y} for any pixel: say, for example, the  \texttt{[3,2]}.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=.42\textwidth]{imagenes/matriz-coordenadas-1}
-  \caption{Antonia desafía a Cecilia a encontrar las coordenadas
-    \coord{X} e \coord{Y} de cada pixel; en particular, del
-    \texttt{[3,2]}.}
+  \caption{Antonia challenges Cecilia to find the coordinates
+\coord{X} \coord{Y} of each pixel; in particular, of \texttt{[3,2]}.}
   \label{fig:matriz-coordenadas-1}
 \end{figure}
 
-Antonia hizo silencio, y Cecilia supo que aquel plural era, como otras
-veces, bien singular.
+Antonia was silent, and Cecilia knew that that plural was, like other times, very singular.
 
----¿Me dejás hacer unos dibujitos? ---preguntó Cecilia mientras tomaba
-para sí el teclado.
+``Will you let me do some drawings?'' Cecilia asked as she took the keyboard for herself.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=.6\textwidth]{imagenes/matriz-coordenadas-4}
-  \caption{Cecilia procura expresar las coordenadas \coord{X} e
-    \coord{Y} de cada pixel, comenzando por el \texttt{[3,2]}.}
+  \includegraphics[width=.6\textwidth]{imagenes/matriz-coordenadas-4.png}
+  \caption{Cecilia tries to express the coord{X} \coord{Y}  coordinates of
+each pixel, starting with \texttt{[3,2]}.}
   \label{fig:matriz-coordenadas-4}
 \end{figure}
+
+---------------------------------------------------------------------
 
 \guillemotright ¡Uf! Me costó... ---reconoció mientras se reclinaba
 pesadamente contra el respaldo de la silla y contemplaba la flamante
@@ -270,8 +210,7 @@ digito(alfa=90);
     \begin{figure}[ht]
       \centering
     \includegraphics[width=.4\textwidth]{imagenes/matriz-completa}  
-    \caption{Cecilia logra producir una matriz completa de pixeles
-      encendidos.}
+    \caption{Cecilia manages to produce a complete array of lit pixels.}
       \label{fig:matriz-completa}
     \end{figure}
     
@@ -339,8 +278,7 @@ digito(alfa=90);
   \begin{figure}[ht]
     \centering
     \includegraphics[width=.45\textwidth]{imagenes/matriz-completa-centrada-0}    
-    \caption{Cecilia centra debidamente la matriz en el origen de
-      coordenadas.}
+    \caption{Cecilia properly centers the array at the origin of coordinates.}
     \label{fig:matriz-completa-centrada-0}
   \end{figure}
   
@@ -415,8 +353,7 @@ difference(){
     \begin{figure}[ht]
       \centering
       \includegraphics[width=.65\textwidth]{imagenes/digito-al-ras}
-      \caption{Antonia muestra un \emph{bug} sutil del recientemente
-        conquistado rayo de Sol.}
+      \caption{Antonia shows a subtle bug in the recently conquered Sunbeam.}
       \label{fig:digito-al-ras}
     \end{figure}
      
@@ -453,8 +390,7 @@ difference(){
     \begin{figure}[ht]
       \centering
       \includegraphics[width=.65\textwidth]{imagenes/digito-apenas-descendido}
-      \caption{Antonia resuelve el \emph{bug} con un expediente
-        sencillo pero eficaz.}
+      \caption{Antonia solves the bug with a simple but effective expedient.}
       \label{fig:digito-apenas-descendido}
     \end{figure}
       
@@ -488,8 +424,8 @@ difference(){
     \centering
   \includegraphics[width=.49\textwidth]{imagenes/matriz-60}\hfill
   \includegraphics[width=.49\textwidth]{imagenes/matriz-60-perfil}
-  \caption{Cecilia comprueba que el rayo de Sol funciona con 60º:
-    \lstinline!digito(alfa=60);!...}
+  \caption{Cecilia checks that the sunbeam works with 60\si{\degree}:
+\lstinline!digito(alfa=60);!}
     \label{fig:matriz-60}
   \end{figure}
   
@@ -498,11 +434,11 @@ difference(){
     \centering
   \includegraphics[width=.49\textwidth]{imagenes/matriz-150}\hfill
   \includegraphics[width=.49\textwidth]{imagenes/matriz-150-perfil} 
-    \caption{...y con 150º: \lstinline!digito(alfa=150);!}%\vspace{128in}
+    \caption{and with 150\si{\degree}: \lstinline!digito(alfa=150);!}%\vspace{128in}
     \label{fig:matriz-150}
   \end{figure}
 
-    Parecía que no.
+It seemed not.
 
 
 
