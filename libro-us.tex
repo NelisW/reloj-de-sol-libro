@@ -1,0 +1,32 @@
+\documentclass[a5paper, 11pt]{memoir}
+\pagestyle{ruled} % o Ruled
+\usepackage[scale=.75]{geometry}
+\usepackage{etoolbox}
+\newtoggle{libro}
+\togglefalse{libro} % false -> para imprimir, true -> ebook
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%            \iftoggle{libro}{ebook}{libro}
+
+\usepackage{reloj}
+
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=black,
+%     filecolor=black,      
+%     urlcolor=black,
+%   }
+
+% \includeonly{frontmatter/titulo}
+% \includeonly{backmatter/notas}
+
+\ifdef{\capitulo}{\includeonly{\capitulo-us}}{}
+
+\begin{document}
+
+\input{contenido-us}
+
+
+
+\end{document}
